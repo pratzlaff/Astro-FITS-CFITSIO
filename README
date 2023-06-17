@@ -6,14 +6,13 @@ What is it?
    subroutine library. For more information on cfitsio, see
    http://heasarc.gsfc.nasa.gov/fitsio
 
-Where can (did) I get it?
+Where can I get it?
 -------------------------
-   https://hea-www.harvard.edu/~rpete/cfitsio
    https://www.perl.com/CPAN/authors/id/P/PR/PRATZLAFF
 
 What version of cfitsio does this module require?
 ----------------------------------------------
-  Astro::FITS::CFITSIO requires at least cfitsio version 4.10
+  Astro::FITS::CFITSIO requires at least cfitsio version 4.2.0
 
 Installation
 ------------
