@@ -1,0 +1,39 @@
+Prerequistes:
+-------------
+
+Astro::FITS::CFITSIO requires CFITSIO library version 4.10 or later.
+
+You do not need to install CFITSIO yourself.  Astro::FITS::CFITSIO
+uses the Alien::CFITSIO module (avaliable on CPAN) to locate or
+install the CFITSIO library.
+
+Installation of Alien::CFITSIO ensures that CFITSIO is available,
+either by locating a locally installed version, or by automatically
+downloading and installing CFITSIO into a location private to
+Perl modules (it won't contaminate your environment).
+
+Installation Via A CPAN Client:
+-------------------------------
+
+Install as you would any other module, e.g.
+
+   $cpan Astro::FITS::CFITSIO
+
+where $cpan may be cpan, cpanm, or cpm.
+
+Manual Installation:
+--------------------
+
+1. Install Alien::CFITSIO from CPAN. 
+
+2. perl Makefile.PL
+
+3. make
+
+4. make test
+
+5. If you want, compare the output of the testprog/testprog*.pl
+   scripts to cfitsio's testprog.c. There is a small shell script -
+   "runtests" - included to make this easier.
+
+6. make install
