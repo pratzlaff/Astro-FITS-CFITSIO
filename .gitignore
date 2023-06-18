@@ -1,0 +1,9 @@
+CFITSIO.bs
+CFITSIO.c
+CFITSIO.o
+MYMETA.json
+MYMETA.yml
+Makefile
+blib/
+pm_to_blib
+util.o
