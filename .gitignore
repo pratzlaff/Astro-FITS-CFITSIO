@@ -1,9 +1,13 @@
+Astro-FITS-CFITSIO-*.tar.gz
+blib/
 CFITSIO.bs
 CFITSIO.c
 CFITSIO.o
+Makefile
+Makefile.old
 MYMETA.json
 MYMETA.yml
-Makefile
-blib/
 pm_to_blib
+testprog/testprog.fit
+testprog/testprog.lis
 util.o
