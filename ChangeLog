@@ -13,7 +13,7 @@
 
 	* CFITSIO.xs: change fits_copy_select_rows -> fits_copy_selrows
 
-2023-07-28  Diab Jerius <djerius@cfa.harvard.edu>
+2023-07-05  Diab Jerius <djerius@cfa.harvard.edu>
 
 	* t/create_file.t: fix cause of Windows test failures, whereby a
 	file must be deleted before its name can be reused.

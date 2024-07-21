@@ -8,7 +8,7 @@ What is it?
 
 Where can I get it?
 -------------------------
-   https://www.perl.com/CPAN/authors/id/P/PR/PRATZLAFF
+   https://metacpan.org/dist/Astro-FITS-CFITSIO
    https://github.com/pratzlaff/Astro-FITS-CFITSIO
 
 What version of cfitsio does this module require?
